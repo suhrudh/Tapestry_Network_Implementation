@@ -1,0 +1,10 @@
+{application,pro3,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"pro3"},
+              {modules,['Elixir.AddedHashVal','Elixir.C','Elixir.ColMap',
+                        'Elixir.LevelColMap','Elixir.MapNil',
+                        'Elixir.NodeActor','Elixir.Pro3',
+                        'Elixir.ProcessIdHolder','Elixir.RoutingTable',
+                        'Elixir.TotalCallsCounter','Elixir.Utility']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
